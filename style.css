@@ -8,3 +8,21 @@
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 */
+body header {
+  background: #00001D;
+  background-image: none;
+  height: 3.3em;
+  align-items: flex-end;
+}
+body header div {
+  height: 4.2em;
+}
+body header div h1 {
+  font-weight: 900;
+  font-size: 4em;
+}
+body header div h1 a {
+  font-family: "Playfair Display SC", serif;
+}
+
+/*# sourceMappingURL=style.css.map */

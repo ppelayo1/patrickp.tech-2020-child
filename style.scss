@@ -1,0 +1,30 @@
+/*
+ Theme Name:   PatrickP.tech 2020 child theme
+ Description:  A redesign of the old theme
+ Author:       Patrick Pelayo
+ Author URI:   http://www.patrickp.tech/
+ Template:     patrickp.tech 2020
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+body header{
+    background:#00001D;
+    background-image: none;
+    height: 5em;
+    align-items: flex-end;
+    
+    div{
+        height:5em;
+        h1{
+            
+            font-weight:900;
+            font-size: 4em;   
+            
+            a{
+                font-family: 'Playfair Display SC', serif;
+            }
+        }
+    }
+}
