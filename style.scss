@@ -8,10 +8,15 @@
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 */
+$footHead-color: #3a3842;
+
+.playFairFont{
+    font-family: 'Playfair Display SC', serif;
+}
 
 body{
     header{
-        background:#00001D;
+        background:$footHead-color;
         background-image: none;
         height: 2.2em;
         align-items: flex-end;
@@ -22,13 +27,9 @@ body{
             padding:0;
             
             h1{
-
                 font-weight:900;
                 font-size: 2em;   
 
-                a{
-                    font-family: 'Playfair Display SC', serif;
-                }
             }
         }
     }
@@ -45,5 +46,10 @@ body{
                 }
             }
         }
+    }
+    footer{
+        background:$footHead-color;
+        background-image: none;
+        color:white;
     }
 }

@@ -8,8 +8,12 @@
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 */
+.playFairFont {
+  font-family: "Playfair Display SC", serif;
+}
+
 body header {
-  background: #00001D;
+  background: #3a3842;
   background-image: none;
   height: 2.2em;
   align-items: flex-end;
@@ -23,9 +27,6 @@ body header #innerHeader h1 {
   font-weight: 900;
   font-size: 2em;
 }
-body header #innerHeader h1 a {
-  font-family: "Playfair Display SC", serif;
-}
 body #mainBody h2 {
   font-size: 4em;
 }
@@ -34,6 +35,11 @@ body #mainBody #buttons {
 }
 body #mainBody #buttons .buttonActive span {
   color: #32017a;
+}
+body footer {
+  background: #3a3842;
+  background-image: none;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

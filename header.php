@@ -13,7 +13,7 @@
 <body>
     <header id='header' class='container-fluid'>
         <div id='innerHeader' class='container'>
-            <h1><a href="<?php home_url(); ?>"><?php bloginfo('name'); ?> </a></h1>
+            <h1><a class='playFairFont' href="<?php home_url(); ?>"><?php bloginfo('name'); ?> </a></h1>
         </div>
     </header>
 
