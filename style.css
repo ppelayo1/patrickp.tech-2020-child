@@ -11,11 +11,11 @@
 body header {
   background: #00001D;
   background-image: none;
-  height: 3.3em;
+  height: 5em;
   align-items: flex-end;
 }
 body header div {
-  height: 4.2em;
+  height: 5em;
 }
 body header div h1 {
   font-weight: 900;
@@ -23,6 +23,12 @@ body header div h1 {
 }
 body header div h1 a {
   font-family: "Playfair Display SC", serif;
+}
+body #mainBody h2 {
+  font-size: 4em;
+}
+body #mainBody #buttons {
+  font-weight: 300;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -9,22 +9,32 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 */
 
-body header{
-    background:#00001D;
-    background-image: none;
-    height: 5em;
-    align-items: flex-end;
-    
-    div{
-        height:5em;
-        h1{
-            
-            font-weight:900;
-            font-size: 4em;   
-            
-            a{
-                font-family: 'Playfair Display SC', serif;
+body{
+    header{
+        background:#00001D;
+        background-image: none;
+        height: 5em;
+        align-items: flex-end;
+
+        div{
+            height:5em;
+            h1{
+
+                font-weight:900;
+                font-size: 4em;   
+
+                a{
+                    font-family: 'Playfair Display SC', serif;
+                }
             }
+        }
+    }
+    #mainBody{
+        h2{
+            font-size:4em;
+        }
+        #buttons{
+            font-weight: 300;
         }
     }
 }
