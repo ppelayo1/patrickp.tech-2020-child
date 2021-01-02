@@ -13,11 +13,12 @@ body{
     header{
         background:#00001D;
         background-image: none;
-        height: 5em;
+        height: 3.3em;
         align-items: flex-end;
 
         div{
-            height:5em;
+            height:4.3em;
+            
             h1{
 
                 font-weight:900;
@@ -35,6 +36,12 @@ body{
         }
         #buttons{
             font-weight: 300;
+            
+            .buttonActive{
+                span{
+                    color:#ac99ec;
+                }
+            }
         }
     }
 }
