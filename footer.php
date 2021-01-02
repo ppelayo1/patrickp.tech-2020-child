@@ -24,7 +24,7 @@
                     </ul>
                 </div>
             </div>
-            <p>&copy;<?php echo date("Y"); ?> PatrickP.Tech  </p>
+            <p class='playFairFont'>&copy;<?php echo date("Y"); ?> PatrickP.Tech  </p>
         </div>
 
 
