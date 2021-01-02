@@ -27,6 +27,9 @@ body header #innerHeader h1 {
   font-weight: 900;
   font-size: 2em;
 }
+body #mainBody {
+  margin-bottom: 11em;
+}
 body #mainBody h2 {
   font-size: 4em;
 }
