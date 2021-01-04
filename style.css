@@ -44,5 +44,26 @@ body footer {
   background-image: none;
   color: white;
 }
+body footer #innerFooter {
+  max-width: 770px;
+}
+body footer #innerFooter #contactMeFollowMeWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body footer #innerFooter #contactMeFollowMeWrapper h2 {
+  font-size: 32px;
+  margin: 0;
+  line-height: 0.7;
+}
+body footer #innerFooter #contactMeFollowMeWrapper #socialMediaLinks {
+  margin: 0;
+}
+body footer #innerFooter #flagImg {
+  max-height: none;
+  padding: 0;
+  transform: scaleX(-1);
+}
 
 /*# sourceMappingURL=style.css.map */

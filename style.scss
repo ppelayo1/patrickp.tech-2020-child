@@ -52,5 +52,31 @@ body{
         background:$footHead-color;
         background-image: none;
         color:white;
+        
+        #innerFooter{
+            max-width:770px;
+            
+            #contactMeFollowMeWrapper{
+                display:flex;
+                flex-direction: column;
+                justify-content: space-between;
+                
+                h2{
+                    font-size:32px;
+                    margin:0;
+                    line-height: 0.7;
+                }
+
+                #socialMediaLinks{
+                    margin:0;
+                }
+            }
+            
+            #flagImg{
+                max-height:none;    
+                padding:0;
+                transform:scaleX(-1);
+            }
+        }
     }
 }
