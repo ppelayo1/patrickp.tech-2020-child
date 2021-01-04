@@ -9,6 +9,8 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 */
 $footHead-color: #3a3842;
+$h1Andh2FontSize: 2em; //not including the portfolio header
+$mobileh1Andh2FontSize: 1.4em; //not including the portfolio header
 
 .playFairFont{
     font-family: 'Playfair Display SC', serif;
@@ -28,54 +30,163 @@ body{
             
             h1{
                 font-weight:900;
-                font-size: 2em;   
+                font-size: $h1Andh2FontSize;   
 
+            }
+            
+            //mobile sizes
+            //lower font sizes to better fit a mobile device
+            @media only screen and (max-width:414px){
+                h1{
+                    font-size:$mobileh1Andh2FontSize;
+                    line-height:2;
+                }
             }
         }
     }
     #mainBody{
         margin-bottom:11em;
-        h2{
-            font-size:4em;
-        }
-        #buttons{
-            font-weight: 300;
+        max-width:none;
+    
+        #mainInnerWrapper{
+            max-width: 770px;
+            padding:0;
             
-            .buttonActive{
-                span{
-                    color:#32017a;
+            h2{
+                font-size:4em;
+            }
+
+            //mobile sizes
+            //lower font sizes to better fit a mobile device
+            @media only screen and (max-width:414px){
+                h2{
+                    font-size:2.8em;
+                }
+            }
+
+            #buttons{
+                font-weight: 300;
+
+                .buttonActive{
+                    span{
+                        color:#32017a;
+                    }
                 }
             }
         }
     }
+    
     footer{
         background:$footHead-color;
         background-image: none;
         color:white;
+        padding-top:5em;
         
         #innerFooter{
             max-width:770px;
             
-            #contactMeFollowMeWrapper{
-                display:flex;
-                flex-direction: column;
-                justify-content: space-between;
+            #footerRows{
+                margin-bottom: 1em;
                 
-                h2{
-                    font-size:32px;
-                    margin:0;
-                    line-height: 0.7;
+                div:nth-child(n){
+                    padding:0;
+                }
+            
+                #contactMeFollowMeWrapper{
+                    display:flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    text-align: left;
+                    
+                    h2{
+                        font-size:$h1Andh2FontSize;
+                        margin:0;
+                        line-height: 1;
+                        font-weight: 900;
+                    }
+                    
+                    #emailAddress{
+                        font-size:1em;
+                        a{
+                            font-weight: 100;
+                            color:#cfa255;
+                        }
+                    }
+
+                    #socialMediaLinks{
+                        margin:0;
+                        line-height: 1.3;
+                        
+                        li{
+                            height:36px;
+                            
+                            i{
+                                color:#1c1c1c;
+                            }
+                        }
+                    }
+                    
+                    //tablet sizes
+                    //make the contact me and follow me left and right aligned with one another above the flag
+                    @media only screen and (max-width: 576px){
+                        flex-direction: row;
+                        
+                        #emailAddress{
+                            margin: 9px 0 0 0;
+                        }
+                        
+                        #socialMediaLinks{
+                            line-height: 0;
+                       
+                            li:nth-child(1){
+                                float:left;
+                            }
+                            li:last-child{
+                                text-align: right;
+                            }
+                        }
+                    }
+                    
+                    //mobile sizes
+                    //lower font sizes to better fit a mobile device
+                    @media only screen and (max-width:414px){
+                        h1,h2{
+                            font-size:$mobileh1Andh2FontSize;
+                        }
+                        
+                        #emailAddress{
+                            margin: 14px 0 0 0;
+                            font-size:0.7em;
+                        }
+                    }
+                    
                 }
 
-                #socialMediaLinks{
-                    margin:0;
+                #flagImg{
+                    max-height:none;    
+                    padding:0;
+                    transform:scaleX(-1);
+                }
+                
+                //tablet and mobile sizes add a margin top
+                //make the contact me and follow me left and right aligned with one another above the flag
+                @media only screen and (max-width: 576px){
+                    #flagImg{
+                        margin-top:3em;
+                    }
                 }
             }
             
-            #flagImg{
-                max-height:none;    
-                padding:0;
-                transform:scaleX(-1);
+            #copyright{
+                font-weight: 100;
+                font-size:1em;
+                font-style: italic;
+                margin-left:-15px; //fix the bad alignment
+            }
+            @media only screen and (max-width:414px){
+                #copyright{
+                    font-size:0.7em;
+                }
             }
         }
     }
