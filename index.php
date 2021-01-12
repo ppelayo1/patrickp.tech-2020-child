@@ -45,7 +45,7 @@
               <div class="modal-header">
                 <h5 id='thePostTitle' class="modal-title">unset</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <img href=<? ?>
+                    <img src=<?php echo get_template_directory_uri() . '/img/closeX.png' ?>
                 </button>
               </div>
               <div class="modal-body">

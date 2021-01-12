@@ -15,7 +15,7 @@
         //Output the post 
         if($q->have_posts()){
             $q->the_post();
-            the_title("<h2 class='postTitle'>","</h2>");
+            the_title("<h2 class='postTitle mb-5'>","</h2>");
             the_content();    
             the_date('',"<p class='text-right'> ",'</p>');   
             wp_reset_postdata();

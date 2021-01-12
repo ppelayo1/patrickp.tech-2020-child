@@ -4,7 +4,7 @@
         </div>
     </div>
 
-    <footer class='container-fluid'>
+    <footer id='postFooter' class='container-fluid'>
         <div id='innerFooter' class='container'>
             <div id='footerRows' class='row'>
                 <div id='contactMeFollowMeWrapper' class='col-sm-5'>

@@ -160,5 +160,9 @@ body article .postTitle {
   font-weight: 500;
   text-align: center;
 }
+body article p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
 
 /*# sourceMappingURL=style.css.map */
