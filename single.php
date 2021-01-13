@@ -1,6 +1,6 @@
 <?php get_header('post');?>
 <div class='container-fluid'>
-    <article>
+    <article class='mt-5'>
 
 
         <?php 
