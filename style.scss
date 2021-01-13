@@ -9,8 +9,8 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 */
 $footHead-color: #3a3842;
-$h1Andh2FontSize: 2em; //not including the portfolio header
-$mobileh1Andh2FontSize: 1.4em; //not including the portfolio header
+$h1Andh2FontSize: 2rem; 
+$mobileh1Andh2FontSize: 1.4rem; 
 
 .playFairFont{
     font-family: 'Playfair Display SC', serif;
@@ -215,6 +215,18 @@ body{
         p{
             font-size:1rem;
             margin-bottom: 0.5rem;
+        }
+        
+        //mobile sizes
+        //lower font sizes to better fit a mobile device
+        @media only screen and (max-width:25.875em){
+            .postTitle{
+                font-size:2.8rem;
+                
+            }
+            p{
+                font-size: 0.7rem;
+            }
         }
     }
 }
