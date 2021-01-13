@@ -161,7 +161,7 @@ body article .postTitle {
   text-align: center;
 }
 body article p {
-  font-size: 1rem;
+  font-size: 1.3rem;
   margin-bottom: 0.5rem;
 }
 @media only screen and (max-width: 25.875em) {
@@ -169,7 +169,7 @@ body article p {
     font-size: 2.8rem;
   }
   body article p {
-    font-size: 0.7rem;
+    font-size: 0.91rem;
   }
 }
 
