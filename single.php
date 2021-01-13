@@ -17,7 +17,7 @@
             $q->the_post();
             the_title("<h2 class='postTitle mb-5'>","</h2>");
             the_content();    
-            the_date('',"<p class='text-right'> ",'</p>');   
+            the_date('',"<p class='text-left'> ",'</p>');   
             wp_reset_postdata();
         }
         ?>
