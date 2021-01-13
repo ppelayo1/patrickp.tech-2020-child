@@ -165,4 +165,11 @@ body article p {
   margin-bottom: 0.5rem;
 }
 
+body .modal-header {
+  justify-content: flex-end;
+}
+body .modal-header #thePostTitle {
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */

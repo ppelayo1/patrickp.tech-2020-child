@@ -218,3 +218,14 @@ body{
         }
     }
 }
+
+//modal
+body{
+    .modal-header{
+        justify-content: flex-end;
+        
+        #thePostTitle{
+            display:none;
+        }
+    }
+}
